@@ -1,3 +1,7 @@
-# @riverbraid/integration-gold
-**Invariant:** [State: INTEGRATION_REST | Coherence: HIGH]
-Refer to [Root Architecture](../../README.md) for cluster context.
+# Riverbraid Integration Gold
+## Decision-to-Action Mapping
+
+The bridge between cognitive logic and external system execution. It maps internal deterministic decisions into structured action payloads.
+
+### Core Invariant
+* **SYSTEM_REST**: Actions are only triggered when the system is in a verified stationary state.
