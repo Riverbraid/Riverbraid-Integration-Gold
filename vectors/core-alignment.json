@@ -1,0 +1,6 @@
+{
+  "input": "verify cluster alignment",
+  "expected_output": ["AUDIT", "COMPARE_IDENTITY", "EMIT_STATIONARY"],
+  "category": "state_management",
+  "description": "Translates the request for a system-wide check into atomic gold operations"
+}

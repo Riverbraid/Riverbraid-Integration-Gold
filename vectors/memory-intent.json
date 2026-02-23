@@ -1,0 +1,7 @@
+{
+  "vector_id": "MEMORY_INTENT_V1",
+  "primary_signal": "MEANING_NOT_TOKENS",
+  "persistence_strategy": "STATIONARY_STATE_INVARIANT",
+  "temporal_reference": "NON_LINEAR",
+  "anchor": "Go 44"
+}

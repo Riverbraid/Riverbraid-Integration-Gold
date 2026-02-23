@@ -1,0 +1,11 @@
+{
+  "contract_class": "IDENTITY_CONTRACT",
+  "version": "1.4.0",
+  "repo_name": "Riverbraid-Integration-Gold",
+  "repo_role": "SEMANTIC_BRIDGE",
+  "governed_files": [
+    "vectors/lexicon.json",
+    "vectors/grounding-protocols.json",
+    "vectors/bridge-active.json"
+  ]
+}
