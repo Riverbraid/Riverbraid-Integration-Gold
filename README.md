@@ -1,13 +1,26 @@
-# Riverbraid Integration-Gold
-**Signal:** SEMANTIC_BRIDGE
+# ⚓ Riverbraid-Integration-Gold
 
-## Role
-The translation layer between mystical Source intent and practical execution. It utilizes deterministic vectors to map high-level alignment principles to discrete system operations.
+## 📜 Overview
+**Riverbraid-Integration-Gold** is the semantic bridging layer and governed deterministic interfaces. 
 
-## Vectors
-Located in `vectors/`, these JSON structures provide the ground-truth for:
-- Judicial Intent (Policy mapping)
-- Memory Intent (State mapping)
+It operates within the **Riverbraid Gold Cluster** under a **Fail-Closed** discipline: if any part of the system deviates from its anchored frequency (commit hash), the cluster halts to prevent entropy leakage.
 
-## Philosophical Anchor
-Stationary State from one axiom: σ = 1/(1 + σ). See [McLean (2026)](https://zenodo.org/records/18742684) in [Golds/ARCHITECTURE.md](https://github.com/Riverbraid/Riverbraid-Golds/blob/main/ARCHITECTURE.md).
+## 🗝️ Core Functions
+* Semantic Bridging
+* Governed Interfaces
+* Interaction Logic
+* **Institutional Alignment:** Fully compliant with the v1.1.0 stationary mandate.
+
+## 🧬 Stationary State Invariant
+The system is anchored in the principle of $dS/dt = 0$ (Zero Entropy Growth).
+> "A system is secure if and only if it is in a secure state and all state transitions preserve security." — McLean (1994)
+
+## 🛡️ Governance
+This petal is a part of the **Riverbraid Gold v1.1.0** release.
+* **Merkle Root:** `de2062`
+* **Fingerprint:** `D9475D6B717D0E6C8EC84F6D8F86D9F4F2B083A4`
+* **Status:** STATIONARY_STATE_ACTIVE
+* **License:** MIT
+
+---
+*Signed by the Honest Advisor Protocol.*
