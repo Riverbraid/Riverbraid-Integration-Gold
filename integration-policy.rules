@@ -1,0 +1,26 @@
+{
+  "protocol": "Riverbraid-Integration-Gold",
+  "version": "1.1.0",
+  "axioms": {
+    "primary_frequency": "sigma = 1 / (1 + sigma)",
+    "invariant": "dS/dt = 0"
+  },
+  "scrubbing_logic": {
+    "mode": "FAIL_CLOSED",
+    "transform": "CANONICAL_RECODER",
+    "dwell_gate": "50ms",
+    "memory_cap": "STRICT_ZERO_GROWTH"
+  },
+  "access_vectors": [
+    {
+      "tag": "LINEAR",
+      "permissions": ["READ", "VERIFY"],
+      "auth": "SINGLE_TOKEN"
+    },
+    {
+      "tag": "NONLINEAR",
+      "permissions": ["WRITE", "UPGRADE", "SUCCEED"],
+      "auth": "DUAL_KEY_ATTESTATION"
+    }
+  ]
+}
