@@ -1,0 +1,22 @@
+{
+  "node": "Riverbraid-Judicial-Gold",
+  "governance_mode": "LEAST_ENTROPY",
+  "rules": {
+    "LINEAR_VECTOR": {
+      "action": "ALLOW",
+      "constraints": ["READ_ONLY", "NO_STATE_PERSISTENCE"],
+      "audit_trail": "EPHEMERAL"
+    },
+    "NONLINEAR_VECTOR": {
+      "action": "GATE",
+      "required_attestation": "DUAL_KEY_GPG",
+      "succession_ritual": "ATOMIC_GENESIS_REPLACEMENT",
+      "audit_trail": "IMMUTABLE_CHAIN"
+    }
+  },
+  "veto_conditions": [
+    "PREDICTED_DS_DT > 0",
+    "SIGNATURE_MISMATCH",
+    "UNTAGGED_SEMANTIC_SIGNAL"
+  ]
+}
