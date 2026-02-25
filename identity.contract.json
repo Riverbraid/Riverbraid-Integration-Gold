@@ -2,6 +2,9 @@
   "contract_class": "IDENTITY_CONTRACT",
   "version": "1.1.0",
   "repo_name": "Riverbraid-Integration-Gold",
-  "repo_role": "REFINED_PETAL",
-  "invariants": { "entropy_ban": true, "ascii_only": true }
+  "repo_role": "SEMANTIC_BRIDGE",
+  "invariants": {
+    "entropy_ban": true,
+    "ascii_only": true
+  }
 }
