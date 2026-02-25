@@ -1,8 +1,7 @@
 {
-  "name": "Riverbraid-Integration-Gold",
-  "version": "1.0.0",
-  "role": "INTER-PROCESS_COMMUNICATION",
-  "governance": "Locked",
-  "governed_files": ["identity.contract.json", "package.json"],
-  "invariants": ["Scale-Separation", "Stationary"]
+  "contract_class": "IDENTITY_CONTRACT",
+  "version": "1.1.0",
+  "repo_name": "Riverbraid-Integration-Gold",
+  "repo_role": "REFINED_PETAL",
+  "invariants": { "entropy_ban": true, "ascii_only": true }
 }
