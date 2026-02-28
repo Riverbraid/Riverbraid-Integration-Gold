@@ -1,8 +1,14 @@
 # Riverbraid-Integration-Gold
 
+<<<<<<< HEAD
 **Signal:** `SEMANTIC_BRIDGE`
 **Cluster:** [Riverbraid Gold v1.1](https://github.com/Riverbraid/Riverbraid-Golds)
 **Language:** Python ≥ 3.10
+=======
+**Signal:** `SEMANTIC_BRIDGE`  
+**Cluster:** [Riverbraid Gold v1.1](https://github.com/Riverbraid/Riverbraid-Golds)  
+**Language:** Python ≥ 3.10  
+>>>>>>> 34d8dfdff10294234aa512d1b7b999c65f75ed8a
 **Status:** Active — Stationary
 
 -----
