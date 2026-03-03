@@ -1,20 +1,12 @@
 {
-  "contract_class": "riverbraid-gold-v1.1",
-  "version": "1.1.0",
-  "repo_name": "riverbraid-integration-gold",
-  "repo_role": "sovereign-reference-petal",
+  "contract_class": "riverbraid-reference",
+  "version": "1.3.0",
+  "repo_name": "Riverbraid-Integration-Gold",
+  "repo_role": "system-rest-execution",
   "governed_files": [
-    "README.md",
-    "package.json",
-    "identity.contract.json",
-    "LICENSE",
+    "index.js",
     "verify.mjs",
-    "index.js"
-  ],
-  "invariants": {
-    "entropy_ban": true,
-    "deterministic_verification": true,
-    "stationary_state": true
-  },
-  "aperture_reference": "Riverbraid/riverbraid-cognition"
+    "identity.contract.json",
+    "package.json"
+  ]
 }

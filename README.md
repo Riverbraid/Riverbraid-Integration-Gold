@@ -3,13 +3,13 @@
 <<<<<<< HEAD
 **Signal:** `SEMANTIC_BRIDGE`
 **Cluster:** [Riverbraid Gold v1.1](https://github.com/Riverbraid/Riverbraid-Golds)
-**Language:** Python ≥ 3.10
+**Language:** Python  3.10
 =======
 **Signal:** `SEMANTIC_BRIDGE`  
 **Cluster:** [Riverbraid Gold v1.1](https://github.com/Riverbraid/Riverbraid-Golds)  
-**Language:** Python ≥ 3.10  
+**Language:** Python  3.10  
 >>>>>>> 34d8dfdff10294234aa512d1b7b999c65f75ed8a
-**Status:** Active — Stationary
+**Status:** Active  Stationary
 
 -----
 
@@ -23,10 +23,10 @@ This is the only place in the cluster where a Core mode decision becomes an acti
 
 ## What It Is Not
 
-- Not a policy engine — it does not decide what mode to enter
-- Not an intelligence layer — it enacts decisions made elsewhere
-- Not responsible for computing input metrics — those belong to the wrapper
-- Not adaptive — transitions are recorded, not learned from
+- Not a policy engine  it does not decide what mode to enter
+- Not an intelligence layer  it enacts decisions made elsewhere
+- Not responsible for computing input metrics  those belong to the wrapper
+- Not adaptive  transitions are recorded, not learned from
 
 -----
 
@@ -47,13 +47,13 @@ from integration import enact, current_mode
 
 # Enact a mode returned by Riverbraid-Core
 result = enact("soften")
-# result["enacted_mode"] → "soften"
-# result["previous_mode"] → "engage" (or None on first run)
-# result["transition_count"] → int
-# result["signal"] → "SEMANTIC_BRIDGE"
+# result["enacted_mode"]  "soften"
+# result["previous_mode"]  "engage" (or None on first run)
+# result["transition_count"]  int
+# result["signal"]  "SEMANTIC_BRIDGE"
 
 # Check the current mode without modifying state
-mode = current_mode()  # → "soften"
+mode = current_mode()  #  "soften"
 ```
 
 **Full pipeline example:**
@@ -95,11 +95,11 @@ python verify.py
 
 ## Design Properties
 
-- **Single responsibility** — enacts modes, nothing else
-- **Auditable** — every transition is recorded with previous mode and count
-- **Fail-closed on invalid input** — unrecognized modes raise immediately
-- **Stateful by design** — transition history is the point; state is not hidden
-- **Standard library only** — no dependencies
+- **Single responsibility**  enacts modes, nothing else
+- **Auditable**  every transition is recorded with previous mode and count
+- **Fail-closed on invalid input**  unrecognized modes raise immediately
+- **Stateful by design**  transition history is the point; state is not hidden
+- **Standard library only**  no dependencies
 
 -----
 
@@ -107,7 +107,7 @@ python verify.py
 
 |Petal                                                                             |Signal                   |Purpose                      |
 |----------------------------------------------------------------------------------|-------------------------|-----------------------------|
-|[Riverbraid-Golds](https://github.com/Riverbraid/Riverbraid-Golds)                |—                        |Cluster manifest and pipeline|
+|[Riverbraid-Golds](https://github.com/Riverbraid/Riverbraid-Golds)                |                        |Cluster manifest and pipeline|
 |[Riverbraid-Core](https://github.com/Riverbraid/Riverbraid-Core)                  |Root                     |Capacity control substrate   |
 |[Riverbraid-Crypto-Gold](https://github.com/Riverbraid/Riverbraid-Crypto-Gold)    |`MECHANICAL_HONESTY`     |SHA-256 state anchoring      |
 |[Riverbraid-Judicial-Gold](https://github.com/Riverbraid/Riverbraid-Judicial-Gold)|`LEAST_ENTROPY`          |Predicate governance         |
