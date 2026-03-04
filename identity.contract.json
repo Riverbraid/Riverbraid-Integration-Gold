@@ -3,10 +3,6 @@
   "version": "1.3.0",
   "repo_name": "Riverbraid-Integration-Gold",
   "repo_role": "system-rest-execution",
-  "governed_files": [
-    "index.js",
-    "verify.mjs",
-    "identity.contract.json",
-    "package.json"
-  ]
+  "governed_files": ["index.js", "verify.mjs", "identity.contract.json", "package.json", "README.md"],
+  "invariants": { "deterministic": true, "no_entropy_sources": true, "schema_locked": true }
 }
