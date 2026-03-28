@@ -12,8 +12,8 @@ import { runSequence, checkPetalStatus, getStatus } from './index.js';
 
 // ── Governance constants ──────────────────────────────────────────────────────
 
-const REQUIRED_MERKLE_ROOT = '08e829';
-const REQUIRED_ANCHOR      = 'de2062';
+const REQUIRED_MERKLE_ROOT = 'f228da85b01ab24d49107d8c92ecbd154c3c8662501fcad9a65beffe7ffc0c47';
+const REQUIRED_ANCHOR      = 'f228da85b01ab24d49107d8c92ecbd154c3c8662501fcad9a65beffe7ffc0c47';
 const EXPECTED_STATUS      = 'STATIONARY';
 
 // ── Petal stubs for resonance check ──────────────────────────────────────────

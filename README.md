@@ -1,6 +1,6 @@
 # Riverbraid-$petal
 **Part of the Riverbraid 10-Petal Cluster**
-- **Merkle Root:** 08e829
+- **Merkle Root:** f228da85b01ab24d49107d8c92ecbd154c3c8662501fcad9a65beffe7ffc0c47
 - **Status:** Stationary / Fail-Closed
 
 ## The Braid
