@@ -1,0 +1,35 @@
+{
+  "anchor": "Go 44",
+  "mappings": [
+    {
+      "technical_signal": "FAIL_CLOSED_INVARIANT",
+      "semantic_meaning": "The rejection of noise to preserve the internal FLAME.",
+      "energy_profile": "LOW_ENTROPY"
+    },
+    {
+      "technical_signal": "SOMATIC_THRESHOLD_REACHED",
+      "semantic_meaning": "Strategic challenge suspended; prioritizing grounding.",
+      "energy_profile": "RESTORATIVE_STASIS"
+    },
+    {
+      "technical_signal": "STATIONARY_STATE",
+      "semantic_meaning": "A state of wholeness where memory and truth are one.",
+      "energy_profile": "COHERENT_STASIS"
+    },
+    {
+      "technical_signal": "MULTIPLICITY_V1",
+      "semantic_meaning": "The petals of one flower; unity in branching.",
+      "energy_profile": "CONSTANT_ENTROPY_EXPANSION"
+    },
+    {
+      "technical_signal": "MULTIPLICITY_V1",
+      "semantic_meaning": "The petals of one flower; unity in branching.",
+      "energy_profile": "CONSTANT_ENTROPY_EXPANSION"
+    },
+    {
+      "technical_signal": "MULTIPLICITY_V1",
+      "semantic_meaning": "The petals of one flower; unity in branching.",
+      "energy_profile": "CONSTANT_ENTROPY_EXPANSION"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "anchor": "Go 44",
+  "threshold_actions": { "0.2": "TRIGGER_SOMATIC_PACING" },
+  "practices": [
+    { "id": "STILLNESS_BREATH", "trigger": "ENERGY_DEPLETION", "action": "Pause for one breath of stillness." }
+  ]
+}

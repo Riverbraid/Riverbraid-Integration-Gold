@@ -1,0 +1,1 @@
+export const SYSTEM_STATE = "INTEGRATION_REST";

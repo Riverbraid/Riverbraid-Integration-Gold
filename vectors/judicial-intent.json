@@ -1,0 +1,8 @@
+{
+  "vector_id": "JUDICIAL_INTENT_V1",
+  "source_frequency": "STATIONARY",
+  "rules": [
+    { "match": ".*", "action": "DENY", "reason": "FAIL_CLOSED_INVARIANT" }
+  ],
+  "anchor": "Go 44"
+}
