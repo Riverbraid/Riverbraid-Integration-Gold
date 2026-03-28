@@ -3,27 +3,27 @@
  * Full Cluster Resonance Test (v1.3.0)
  * * Signal: SEMANTIC_BRIDGE
  * Purpose: Verify that all petals in the Gold Cluster are in stationary
- * resonance — that no petal has drifted from its governed anchor.
+ * resonance  that no petal has drifted from its governed anchor.
  * * This test does NOT modify state. It only reads and asserts.
  * Fail-closed: any single petal failure halts the entire test with exit code 1.
  */
 
 import { runSequence, checkPetalStatus, getStatus } from './index.js';
 
-// ── Governance constants ──────────────────────────────────────────────────────
+//  Governance constants 
 
 const REQUIRED_MERKLE_ROOT = '08e829';
 const REQUIRED_ANCHOR      = 'de2062';
 const EXPECTED_STATUS      = 'STATIONARY';
 
-// ── Petal stubs for resonance check ──────────────────────────────────────────
+//  Petal stubs for resonance check 
 const PETALS = [
   { name: 'Riverbraid-Refusal-Gold',     signal: 'BOUNDARY_LOGIC'       },
   { name: 'Riverbraid-Harness-Gold',     signal: 'STATIONARY_STATE_ACTIVE' },
   { name: 'Riverbraid-Integration-Gold', signal: 'SEMANTIC_BRIDGE'       },
 ];
 
-// ── Sequence steps ────────────────────────────────────────────────────────────
+//  Sequence steps 
 
 function stepVerifyMerkleRoot(context) {
   if (context.merkle_root !== REQUIRED_MERKLE_ROOT) {
@@ -59,14 +59,14 @@ function stepEntropyCheck(context) {
 function stepPetalStatusCheck(context) {
   for (const petal of PETALS) {
     if (!petal.name || !petal.signal) {
-      throw new Error(`RESONANCE_FAIL: petal registration incomplete — ${JSON.stringify(petal)}`);
+      throw new Error(`RESONANCE_FAIL: petal registration incomplete  ${JSON.stringify(petal)}`);
     }
   }
   context.petals_verified = PETALS.map(p => p.name);
   return context;
 }
 
-// ── Run ───────────────────────────────────────────────────────────────────────
+//  Run 
 
 const context = {
   merkle_root : REQUIRED_MERKLE_ROOT,
