@@ -13,3 +13,10 @@ Primary command: `node bin/run-vectors.cjs verify`
 Version: `1.5.0`
 State: `Stationary / Fail Closed`
 Merkle Root: `de2062`
+
+---
+## Riverbraid Ecosystem
+- **Core Framework**: [Riverbraid-Core](https://github.com/Riverbraid/Riverbraid-Core)
+- **Ecosystem Index**: [Riverbraid-Manifest-Gold](https://github.com/Riverbraid/Riverbraid-Manifest-Gold)
+
+## Keywords
