@@ -1,3 +1,281 @@
 {
-  "sha256": "d1ad0ccfd05bc3869e305b88a06dcf3b3f292b3a52f616afb9761059f66984b5"
+  "version": "1.5.0",
+  "merkle_root": "4c7d066e2773e103a86b2436a01323097de7a8fd7accb7a13c3e3fa5453d06b1",
+  "files": [
+    {
+      "path": "__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "leaf": "10a41d7c3e91bb34aa7c526f671f95bec245d6ff08cd3eb98cc41fb872109bd0"
+    },
+    {
+      "path": ".anchor",
+      "sha256": "51370461db27a60869ce1036dcbd9f198049a75dbfdb1a9798532e04efd3a991",
+      "leaf": "698afaf70ef133e8c5cc53450dbdf1003a21a7d363a386e0b4de3f4abd9248ba"
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "daf0f369b25356b2217989eebc4dad24f6681376a07e1a6ac2a8799a13b02bc6",
+      "leaf": "60c255621a965ddd35fecaccd4cf07b877e73287f6598867373259d17cbf8a8f"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "4d56952b0fb13bf8f9b6c13a6d4c34a075bac3af447636a1df4335d7576e2f97",
+      "leaf": "58c444e40816c834efd29bc9614ca54a55f691b53221129e18b2e85b87ed934f"
+    },
+    {
+      "path": ".nvmrc",
+      "sha256": "1d57b0b9ecdc8c2f5bc0b6844ea2173d6530996998aed3fadaecb54766bb9585",
+      "leaf": "8ada8083b29207ca6d3035e5575f03fc49cc800191437f3c6f5922c4bfb2a3e8"
+    },
+    {
+      "path": ".stationary_state",
+      "sha256": "18b770a5b8dd43200cc2163a11a4de1a47b7be439085371206872c9791ff936c",
+      "leaf": "4185e69d445b97cdb97488bc37e746a4170826c8afaa749930fd1079da9a1e55"
+    },
+    {
+      "path": ".stationary-seal",
+      "sha256": "df48de2fb69bb42f3fe91e56141328d2bcf6930ee35bdb15d9d3ebe6f8d5b04e",
+      "leaf": "d4e6e8c854bea2882873c14113aad59b837bbf4cc3e86b2e2302a4b1c79c7056"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "sha256": "53ee44eeba4897fe9fcbb2b18f90a1c08f64be5f12ecb1b7a0fe89bb4974388d",
+      "leaf": "d9aeff37dafc4e1fe08f017e221947ae1abeb9fa09185477c16af29e51523dfb"
+    },
+    {
+      "path": "bin/gate.mjs",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "leaf": "e31e59ed65438712e97e70433dbd318ff639198a7e1953c764424ba5c5f00a88"
+    },
+    {
+      "path": "bin/heartbeat.mjs",
+      "sha256": "c0bc8656b364ee5d0535aa09c6fc959c8ea8b0dadfbd7571ad1b2ddab772fe31",
+      "leaf": "36e9ef8eaf28b360961fd7db79b293bf87370eee911d5afc3b2443ee1e3e5d26"
+    },
+    {
+      "path": "bin/run-vectors.cjs",
+      "sha256": "973ee64f2a5b8fa968ac01815710395ae8a39feddbf9df53d1b769dbaaf527a9",
+      "leaf": "34ba335bb4298185e030204a65e027654e3546482cbf1967d3b7d722ec2bad22"
+    },
+    {
+      "path": "BUILD-MANIFEST-v1.1.md",
+      "sha256": "946d29114d3a1b96e33dc0a6eaaa20d1f959ebbda8b1e73a092afab8131a9610",
+      "leaf": "fc50c56c76a6902b79011dbd3d1fedf944f8a70738512379d27941e4eff90a07"
+    },
+    {
+      "path": "CLUSTER_MANIFEST.state",
+      "sha256": "b0273e5d6349cac2b57f86cdb34a96a088189117c3eb605c105737ee5d85ccc7",
+      "leaf": "94c2c8b2a9fea6684a45cd3029aaea3169c4ed8fd0150f53781e8e8f5197912b"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "31511dd391bb26e3846c8fe022a3de3f6028000902179a70354a3a2cabe03cc5",
+      "leaf": "09ebf4795b2c1591207e782fb0f8eb73824b4db2f3a4032550345729e67254f8"
+    },
+    {
+      "path": "cognitive-architecture.json",
+      "sha256": "72bad017e5598f7b0acc9819c7753e549e882a5238861fbc602d785d93f13698",
+      "leaf": "2a27e19f2650d615a45cb36bfa6ab961b1165c1e00cd1f6a40d5dcc55594a912"
+    },
+    {
+      "path": "constitution.threshold.json",
+      "sha256": "64c787487a94a10a4d9611d8265fe60364aff41af5a0f13a322120dc344899c7",
+      "leaf": "ea31a0c060bfdb0246d0fc812dee293b67aae0d51eebf5004d5849896fccdff0"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "90b428e2efa7ad42dbc204aa31138ee8ae2b5d29483a61f0af08116ba7bc36d3",
+      "leaf": "d971773af5a24266735c903799e3da39b2f242f5ed115d105a6dbb2463e15f19"
+    },
+    {
+      "path": "full-resonance-test.mjs",
+      "sha256": "2512a62fe017d58a3a5b9617152d70f23a353851e22b5ba0e1eee9fdba4d7f49",
+      "leaf": "c8fb9178f3b9ff1c97cbe60d4343120fb1f3a9b0dcac3351543e8fd58340b852"
+    },
+    {
+      "path": "identity.contract.json",
+      "sha256": "385bf045522492186a20398eea3b309a29a9fc5a512fa9f7f71e11b2e0d9bffe",
+      "leaf": "54d334c20815f2e06128f2c0f53a8e15e4c09d089e9e5d3fc390c677734d09e3"
+    },
+    {
+      "path": "index.js",
+      "sha256": "393dfc82b614eeef19a5bdf19da463387dbd6dcd76f40a8f72e3f3474a2e0452",
+      "leaf": "fa86e0784e2ba05109a377eded43bb034cc8ea2941f49f6ab81fe4ea25876198"
+    },
+    {
+      "path": "integration-policy.rules",
+      "sha256": "ccf1ccfd1024bf11e4813f2905b9d0915dde1fbc2efc6f9f61d3e9c4590073aa",
+      "leaf": "9db9e93a5885743825d77232726d2b39de0921430c359394aa9eac0f103f475a"
+    },
+    {
+      "path": "integration.py",
+      "sha256": "85e25ab74df466c2150f25e817458d1af8c61dfc15a9e23a39b8bfc096ed95c3",
+      "leaf": "2098e0f69df9d938dd895bf5243b43d4bc6ef95c1f9e5928bb53752d2f465042"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "4e3d6c1ae6af4c3edca13ac3a4425c2187a543b35f3dd4eed0d634e9060b92d8",
+      "leaf": "8653c32c9912dc33431769aa509d34a118c8bba79ea2b25697c0208d5a4cf3b6"
+    },
+    {
+      "path": "main",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "leaf": "7314f89c05f027962d9bc085aca000fa49f0a6b7efe8260926b2c211462a3707"
+    },
+    {
+      "path": "MANIFEST.SEAL.sha256",
+      "sha256": "1312e53c7b4d54255a07c7956f37185472e1b24c58c7afef926ed0fda8acf315",
+      "leaf": "700faffecc714f7bda307797541d8e9440c7753ef66a2caa0eb486a828a0618b"
+    },
+    {
+      "path": "package.json",
+      "sha256": "f5eba540d4ac51c21c335ff136980941b1cc56c4881b6799321639b7bc1f69aa",
+      "leaf": "d2e2eb90c60b99b09a39f76897e18066015ea261546e5020b00b900e9a7db57f"
+    },
+    {
+      "path": "protocol.steps",
+      "sha256": "c5833e244d8935f9a854fa22454cfcb975ecd25ffb3b2b008a92615684dd35f2",
+      "leaf": "ede579202183d5bf571ed9ebd07892b286cc7026c13cba61bb44ceb2a4522fe5"
+    },
+    {
+      "path": "README.md",
+      "sha256": "f20d04d5eeb6dd6942ab55ae9f354e3674c90d4abe173244ca47282a3fa3f940",
+      "leaf": "cc79753a59081a33f79619f20270e9de50fe4a13a11d5014cbf6c841bdcbb234"
+    },
+    {
+      "path": "reproducibility-manifest.json",
+      "sha256": "79c0d0cc447be44278ad0e157741174cad0568c0c2297681a445cd703e2ae096",
+      "leaf": "3bf78acd7a3aa3883239ea3b81ccffeba014e81e158925b5086db0afe1f9a208"
+    },
+    {
+      "path": "run-vectors.cjs",
+      "sha256": "dacac55fa4846267c962d0e5a46d2ba3d81a40de7cd544cd25751407e788c818",
+      "leaf": "e448a8e65fd67fa0cbdbd24c67ce708edbf83bbd817e1ce9a5912f874e6e0458"
+    },
+    {
+      "path": "runtime-binding.js",
+      "sha256": "0fbaf8e9d87c7721ee96677efd331efb4e37c1742d145ae41c04cc5d0fb72f08",
+      "leaf": "bd52f7de582016132d40bf0501de0724818fcafb9aa0abafc0867e10a719e6dd"
+    },
+    {
+      "path": "scripts/generate-repro-manifest.cjs",
+      "sha256": "9d8b2440b4c1ce373d7f22dbb1468a497c08147c93b67ee315426f5b6d7b5e76",
+      "leaf": "6c53afb9d183ed750464c3977151be87cd73b78ddbd5e9c5ae63660a46d00a20"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "f659baddc79752219b3128b2cef6fbb25616cea779c72e91ab15a09ceae00638",
+      "leaf": "775263f53a4b200b8a21402613b34249afbfc9568ed6180146954e2376a42f4c"
+    },
+    {
+      "path": "SPEC.md",
+      "sha256": "8b2becbb6603d15d0ebfb41259776cd0b453a70ad69b53e2c22136885dafc23b",
+      "leaf": "32a03634db16c6e08dea2adfb1985ffe515d1b4dcf79c6a3ea5818d6ebb501a9"
+    },
+    {
+      "path": "src/index.js",
+      "sha256": "099d72c62d08bb9e2c1b9b3bdbf78cc3a05156e12d6ea519b07796bbe3c36acf",
+      "leaf": "955e59ef8ccef39d9c8073983a8388033fd83baff5d8367343339b3ffef9918f"
+    },
+    {
+      "path": "src/runtime-binding.js",
+      "sha256": "0fbaf8e9d87c7721ee96677efd331efb4e37c1742d145ae41c04cc5d0fb72f08",
+      "leaf": "d3469ed11e232b3cbbd1fe873355fe52c7a7cf07aa6a9e0e84003cd13474a5af"
+    },
+    {
+      "path": "state.js",
+      "sha256": "4aa61c2a8d8c656e8057e35079911c0c231cbb6009c1d078218fb9d770a82e14",
+      "leaf": "991956a4c37b4a4074208b22de30079002f621e59b1a57f8721a50bd9e6a0b23"
+    },
+    {
+      "path": "tests/.keep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "leaf": "bdfb3d4a04089f5ae8384fbce11387fb306f6c032d74b48c7e9e3604d8518b87"
+    },
+    {
+      "path": "tests/signal.test.js",
+      "sha256": "ef062336579f88d0afa9a1fabd29c32bf0a07994aa30e5cbfde7dacd258202a7",
+      "leaf": "6fd174b3bdc2120015c83720be74497d375a80571a97a9c4cd3a5163b52b5f2b"
+    },
+    {
+      "path": "TRUTH.md",
+      "sha256": "22f94c8680672ac9a2c45049a18e5a921a761c6bbc353ec4810f8662f524b447",
+      "leaf": "ae8719b74215f68722758295ec25d8e7f7c5288be1b1d01f214bbb9c8b0178df"
+    },
+    {
+      "path": "TRUTH.SEAL",
+      "sha256": "61ba94f495265ad17e1dc70d6f28ff13915988618c1dd2ef5d605f998d8e58cc",
+      "leaf": "6c0bb1b29fc6df504b3d7ef55390c8aa464bc99fd1e481094a62e715fb98f312"
+    },
+    {
+      "path": "TRUTH.SEAL.sha256",
+      "sha256": "09270bc6090caaa417fa1eb0c4cc9289776c077bc70a03fcf13787c5f5faf401",
+      "leaf": "4ad6b753b39b523d1fa1935e4749a48407b0e65bd179816d56adaef355ebd945"
+    },
+    {
+      "path": "utils/canonical.cjs",
+      "sha256": "1f7a3e408e1fc99ae7757abe3b120bdb686ed038470549933a02af4fe208f7ea",
+      "leaf": "51a7b6d6c202043f7b9737b3e3f217da9ce087642e0da681283b5905336b2f9e"
+    },
+    {
+      "path": "VECTORS_ATTESTATION_V1.json",
+      "sha256": "cae43d1cb7b73014bcf54e48a5107fc85a9095fce063ff03bba73d9658f4057e",
+      "leaf": "502f9fff9f0fe5e27f52a637079283cabfa45db3c96325209687a2ab1924d753"
+    },
+    {
+      "path": "vectors.manifest.json",
+      "sha256": "7a14d8ba0447f6f65fd81296e93610a5b2cf1a6f5b01f383e4eecadac68c6352",
+      "leaf": "420e970a8e42cfdc291e03eda7a887044e614e0c0f1f00552f0b52bb0010c3c4"
+    },
+    {
+      "path": "vectors/bridge-active.json",
+      "sha256": "1af4802e120913a26dcb7374a18981d1f615e341013dac4516bf5e419907634e",
+      "leaf": "0dc3e9a917d5b94ac8207402afdc7def6c68abda76c9d5d2fca872ecd045b07d"
+    },
+    {
+      "path": "vectors/core-alignment.json",
+      "sha256": "919eb6ea88f044abbdb71d44629984d1b2da0d83d7f2dc9d3532d1cb279f2b1e",
+      "leaf": "7ff3115a6c839b74c32c5c27bb06449d14b936d13c4a2a159678c4ac00528418"
+    },
+    {
+      "path": "vectors/grounding-protocols.json",
+      "sha256": "14c6c52082f971fac016226281291b00774f7247e77a2ad6098301837a58e975",
+      "leaf": "b09d51d52f02a3a575d244e184f70c7260913aaed1c029e5bdad26885538c5b7"
+    },
+    {
+      "path": "vectors/judicial-intent.json",
+      "sha256": "fa12cf5781f63053208d5882d12a71385d718fcf0f52c31bb7266750abbaf83b",
+      "leaf": "e337ee75f51764a1dca37675b4df25300a12a70279e8742b61346c264c493c69"
+    },
+    {
+      "path": "vectors/lexicon.json",
+      "sha256": "f52ac7db241bc6ce52b49f63bf0020e8d02d0441f9f64c3d6733d914454e2e64",
+      "leaf": "94fae4ae9a2bfc7567fc10f31308e83ede6153236e75d93c0b976857cb7b7a5d"
+    },
+    {
+      "path": "vectors/meaning-primary.json",
+      "sha256": "14b8529c7051b201b7c07e344b4be071eab1d67c15b093a2f4b2c3fbf58c8dbd",
+      "leaf": "b763c784c0a257ceabaa7ba10c5fcbfedaffacc01bf103b2e663defa2e9af4b1"
+    },
+    {
+      "path": "vectors/memory-intent.json",
+      "sha256": "f57d10adf5a111bb1443fb5f330e5e75d12f9f7647993ee554dc5a8653e9b502",
+      "leaf": "c0d235af443c0f5758909e24d39001604fbd2638272462b3511caebc3c52bc87"
+    },
+    {
+      "path": "vectors/stationary.json",
+      "sha256": "90b2369d0d1efdb22d84b3e8155df7e5ea4bb5d766ba3b737a72b3b7ec7fbe62",
+      "leaf": "dbc7ca0c9a1137d99b433e8b9255524a3859dfa64447654cf10a6c8be5649452"
+    },
+    {
+      "path": "verify.mjs",
+      "sha256": "575fcb09655ab78d37d5ebe8d83181e09195e8df4ce34c6f4b6259a705dc8437",
+      "leaf": "50e00d534a412aa190bdaad80209fa34db08e8364bc6646f5138e52fa0697076"
+    },
+    {
+      "path": "verify.py",
+      "sha256": "adc8b4ae882d232d7fc199cbc66a58c2d081b9ffb00fb14cf97540432ba24a6c",
+      "leaf": "ed328da4214f8f2df9ec00f3162db645156138dfa1851158be031b62bf7fafa7"
+    }
+  ]
 }
