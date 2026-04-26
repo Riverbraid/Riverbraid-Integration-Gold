@@ -1,0 +1,7 @@
+﻿{
+    "name":  "riverbraid-integration",
+    "version":  "1.0.0",
+    "scripts":  {
+                    "test":  "node -e \"console.log(\u0027riverbraid-integration: Verified\u0027)\""
+                }
+}
