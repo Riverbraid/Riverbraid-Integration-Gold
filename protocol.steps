@@ -1,0 +1,33 @@
+{
+  "schema": "riverbraid.gold.protocol.steps",
+  "version": "1.0.0",
+  "repo": "Riverbraid-Integration-Gold",
+  "ring": 1,
+  "petal": "Integration-Gold",
+  "invariant": "INTEGRATION_COHERENCE",
+  "canonical_input": {
+    "petals": [
+      { "id": "crypto", "status": "active" },
+      { "id": "judicial", "status": "active" },
+      { "id": "memory", "status": "active" }
+    ]
+  },
+  "expected_result": true,
+  "steps": [
+    "receive canonical input object",
+    "require input.petals to be an array",
+    "require every petal id to be a non-empty string",
+    "require every petal status to equal active",
+    "compare coherence result to expected_result",
+    "emit deterministic verification output"
+  ],
+  "forbidden": [
+    "Date",
+    "Math.random",
+    "randomUUID",
+    "timestamps",
+    "absolute paths",
+    "environment dependent values",
+    "external lookups"
+  ]
+}

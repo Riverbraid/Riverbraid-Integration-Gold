@@ -1,0 +1,13 @@
+{
+  "schema": "riverbraid.gold.verify.output",
+  "version": "1.0.0",
+  "repo": "Riverbraid-Integration-Gold",
+  "ring": 1,
+  "petal": "Integration-Gold",
+  "invariant": "INTEGRATION_COHERENCE",
+  "status": "VERIFIED",
+  "result": true,
+  "expected_result": true,
+  "canonical_signal": "integration:COHERENT",
+  "canonical_reason": "Verified 3 petals with valid ids and active status"
+}
